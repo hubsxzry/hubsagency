@@ -2,82 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hubs Agency – Instagram & Meta Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HubsAgency — Handled via Personal High-Tier Meta Representative</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
 </head>
 <body>
+
+  <!-- NAVBAR -->
   <header class="navbar">
     <div class="logo">Hubs<span>Agency</span></div>
     <nav>
-      <a href="#home">Home</a>
+      <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#testimonials">Testimonials</a>
       <a href="#contact">Contact</a>
-      <button id="modeToggle">🌙</button>
     </nav>
   </header>
 
+  <!-- HERO -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Meta Support Made Simple</h1>
-      <p>We help you recover Instagram accounts, solve copyright issues & manage Meta-related concerns through official concierge channels.</p>
-      <a href="#contact" class="btn">Get Support</a>
+      <p class="hero-tag">Meta Concierge Support</p>
+      <h1>Handled via Personal <span>High-Tier Meta Representative</span></h1>
+      <p class="hero-desc">
+        We help creators and businesses recover Instagram accounts,
+        resolve copyright disputes, and handle Meta-related issues
+        through official concierge channels.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn primary">Get Support</a>
+        <a href="#services" class="btn ghost">Our Services</a>
+      </div>
     </div>
+
+    <div class="hero-glow"></div>
   </section>
 
-  <section id="about" class="about">
+  <!-- ABOUT -->
+  <section id="about" class="section">
     <h2>About Us</h2>
-    <p>Hubs Agency is a professional support service helping creators and businesses resolve Instagram bans, unbans, copyright disputes, and more. With expert connections via Meta Concierge, we ensure fast and secure recovery.</p>
+    <p class="section-text">
+      HubsAgency is a professional Meta support agency helping individuals,
+      creators, and brands resolve Instagram bans, disabled accounts,
+      copyright strikes, and verification issues.
+      <br><br>
+      We work through "official escalation channels" and focus on
+      transparency, security, and fast resolution.
+    </p>
   </section>
 
-  <section id="services" class="services">
+  <!-- SERVICES -->
+  <section id="services" class="section">
     <h2>Our Services</h2>
-    <div class="service-boxes">
-      <div class="service">
+
+    <div class="grid">
+      <div class="card">
         <h3>Instagram Account Recovery</h3>
-        <p>Recover banned, disabled, or hacked accounts through official Meta channels.</p>
+        <p>
+          Recovery of banned, disabled, or hacked Instagram accounts
+          using official Meta escalation processes.
+        </p>
       </div>
-      <div class="service">
+
+      <div class="card">
         <h3>Copyright Dispute Resolution</h3>
-        <p>We help you resolve false copyright strikes and manage content protection requests.</p>
+        <p>
+          Removal of false copyright strikes and assistance with
+          content protection claims.
+        </p>
       </div>
-      <div class="service">
+
+      <div class="card">
         <h3>Meta Concierge Support</h3>
-        <p>Access to professional support for faster issue resolution and verification guidance.</p>
+        <p>
+          Direct professional guidance for faster Meta issue resolution
+          and verification assistance.
+        </p>
       </div>
     </div>
   </section>
 
-  <section id="testimonials" class="testimonials">
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section">
     <h2>What Clients Say</h2>
-    <div class="testimonial-boxes">
-      <div class="testimonial">
-        <p>"Got my Instagram back within 48 hours! Professional & trustworthy."</p>
-        <h4>— Aarav S.</h4>
+
+    <div class="grid">
+      <div class="card testimonial">
+        <p>
+          “Got my Instagram back within 48 hours. Professional and
+          trustworthy service.”
+        </p>
+        <span>— Aarav S.</span>
       </div>
-      <div class="testimonial">
-        <p>"They handled my copyright dispute quickly. Totally recommend!"</p>
-        <h4>— Riya M.</h4>
+
+      <div class="card testimonial">
+        <p>
+          “They handled my copyright dispute quickly.
+          Highly recommended.”
+        </p>
+        <span>— Riya M.</span>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <!-- CONTACT -->
+  <section id="contact" class="section">
     <h2>Contact Us</h2>
-    <form id="contactForm" action="https://formspree.io/f/mjkvpqzn" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
+
+    <form class="contact-form" netlify>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+      <p class="email-alt">
+        Or email us directly at
+        <a href="mailto:zeeshan@hubsagency.in">zeeshan@hubsagency.in</a>
+      </p>
     </form>
-    <p class="email-note">Or email us directly at <a href="mailto:zeeshan@hubsagency.in">zeeshan@hubsagency.in</a></p>
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Hubs Agency | All Rights Reserved</p>
+    © 2026 HubsAgency · All Rights Reserved
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
